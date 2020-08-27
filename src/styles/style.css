@@ -1,0 +1,64 @@
+.main {
+  background-color: #18181e;
+  color: #dec79b;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.nav-bar {
+  background-color: #38383f;
+}
+
+h1 {
+  color: white;
+  
+}
+
+.container {
+  height: 725px;
+}
+
+.footer {
+  background-color: #38383f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+#main-body {
+  background-color: #18181e;
+  color: #dec79b;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.port-image {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 725px;
+}
+
+.main-card {
+  margin: 15px;
+}
+
+#main-body {
+  background-color: #38383f;
+  padding: 15px;
+}
+
+a {
+  color: #dec79b;
+}
