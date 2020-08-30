@@ -23,7 +23,7 @@ h1 {
 
 .footer {
   background-color: #38383f;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   height: 100px;
@@ -47,8 +47,10 @@ ul {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 725px;
+  height: 100%;
 }
+
+
 
 .main-card {
   margin: 15px;
@@ -59,6 +61,21 @@ ul {
   padding: 15px;
 }
 
-a {
-  color: #dec79b;
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: lightblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 255, 98);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 255, 98);
 }
